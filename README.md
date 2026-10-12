@@ -1,5 +1,10 @@
 # Inventory Management System
 
+## Live Demo / Deployment URL
+
+**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. This repository's GitHub URL is the source code, not a deployed application.
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Inventory-Management-System) [![Issues](https://img.shields.io/github/issues/saikishore2410/Inventory-Management-System)](https://github.com/saikishore2410/Inventory-Management-System/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Inventory-Management-System)](https://github.com/saikishore2410/Inventory-Management-System/commits/main)
 
 > A repository for an inventory-management application. Review the current source and project configuration for the authoritative feature list and runtime requirements.
