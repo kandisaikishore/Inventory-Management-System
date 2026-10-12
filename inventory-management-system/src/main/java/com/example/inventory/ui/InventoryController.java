@@ -32,7 +32,7 @@ public class InventoryController {
         configureTables();
     }
 
-    public Node createView() {
+    public javafx.scene.Parent createView() {
         BorderPane root = new BorderPane();
         root.getStyleClass().add("root");
 
