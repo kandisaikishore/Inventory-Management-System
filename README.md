@@ -1,54 +1,43 @@
 # Inventory Management System
 
-## Live Demo / Deployment URL
+[![Repository](https://img.shields.io/badge/GitHub-Source-181717?logo=github)](https://github.com/kandisaikishore/Inventory-Management-System) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/Inventory-Management-System)](https://github.com/kandisaikishore/Inventory-Management-System/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. This repository's GitHub URL is the source code, not a deployed application.
+A project focused on organizing inventory-related workflows. This README describes the project at a high level; use the checked-in application source and configuration to confirm specific features, runtime requirements, and persistence behaviour.
 
+## Project goals
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Inventory-Management-System) [![Issues](https://img.shields.io/github/issues/saikishore2410/Inventory-Management-System)](https://github.com/saikishore2410/Inventory-Management-System/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Inventory-Management-System)](https://github.com/saikishore2410/Inventory-Management-System/commits/main)
+- Track products or stock items using the capabilities provided by the current application
+- Make inventory information easier to review and update
+- Provide a foundation for validating stock and item data
+- Practise application structure, data handling, and maintainable project documentation
 
-> A repository for an inventory-management application. Review the current source and project configuration for the authoritative feature list and runtime requirements.
+## Technology and setup
 
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-A repository for an inventory-management application. Review the current source and project configuration for the authoritative feature list and runtime requirements.
-
-## Overview
-
-Inventory software generally tracks items, quantities, and stock changes. This README intentionally avoids asserting features that have not been verified in the source.
-
-## Getting started
+The repository includes the application source and project configuration. To get started:
 
 ```bash
-git clone https://github.com/saikishore2410/Inventory-Management-System.git
+git clone https://github.com/kandisaikishore/Inventory-Management-System.git
 cd Inventory-Management-System
 ```
 
-Follow the instructions for the language, framework, and build tool used by the project. Configure database credentials locally where required; do not commit secrets.
+Next, follow the build and run commands for the framework specified by the project configuration. Configure any required database or service settings locally; do not commit passwords, access tokens, or other secrets.
 
 ## Validation checklist
 
-- Validate item identifiers, quantities, and required fields
-- Test create/update/delete flows where supported
-- Verify stock calculations and edge cases
-- Document persistence and backup behaviour
-- Add automated tests for inventory business rules
+- Verify required item fields and identifier uniqueness
+- Test creation and update flows where supported
+- Check stock quantity calculations and boundary values
+- Confirm whether changes persist after restart
+- Add automated tests for key inventory business rules
 
-## Scope
+## Scope and production readiness
 
-Verify authentication, persistence, concurrency safety, and audit history before using this application for real stock operations.
+Before using this system for real stock operations, verify authentication and authorization, persistence, concurrent update behaviour, audit history, backup and restore, and input validation.
 
-## Contributions
+## Contributing
 
-Focused pull requests with clear validation steps are welcome.
+Please include clear reproduction steps and verification results with issue reports and pull requests.
 
 ## License
 
-No license is specified. Add a `LICENSE` file before granting reuse rights.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
