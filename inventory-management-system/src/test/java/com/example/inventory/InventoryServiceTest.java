@@ -67,7 +67,6 @@ class InventoryServiceTest {
         service.addItem(new Item(0, "At threshold", 5, 0));
         service.addItem(new Item(0, "Below threshold", 4, 0));
         assertEquals(2, service.getLowStockItems(5).size());
-        assertTrue(service.getLowStockItems(-1).isEmpty() == false || service.getLowStockItems(-1).isEmpty());
     }
 
     @Test
